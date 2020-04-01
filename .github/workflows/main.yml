@@ -25,7 +25,7 @@ jobs:
           # The emails ( can be only one ) that the email will go
           mail: '${{ secrets.MAIL }}'
           # The email that will be shown as sender
-          from: '${{ secrets.SENDER }}' # optional, default is sendgridmailaction@github.com
+          from: 'Mab Photography (Meuuul)' # optional, default is sendgridmailaction@github.com
           # The subject of the email
           subject: 'Website update' # optional, default is GitHub action notification
           # Defines if it should be one email with multiple address or multiple emails with a single address
